@@ -25,7 +25,7 @@ You are only given the website's primary domain as a starting point: `marvenly.c
 - I utilized **DNSdumpster** to map the DNS infrastructure of `marvenly.com`.
 - By analyzing the Type A records, I discovered the staging environment used for User Acceptance Testing (UAT).
 
-![Q1](dev-diaries/images/q1)
+![Q1](dev-diaries/images/q1.png)
 
 ---
 
@@ -38,7 +38,7 @@ You are only given the website's primary domain as a starting point: `marvenly.c
 - Conducted a manual audit of the live website's **footer**.
 - Identified a developer credit link that redirected to the GitHub profile of the freelancer.
 
-![Q2](dev-diaries/images/q2)
+![Q2](dev-diaries/images/q2.png)
 
 ---
 
@@ -51,7 +51,7 @@ You are only given the website's primary domain as a starting point: `marvenly.c
 - I performed a **Git Patch Analysis**. By navigating to one of the developer's commits and appending `.patch` to the URL, I accessed the raw commit metadata.
 - This revealed the `From:` field, which contains the author's real name and email address used for the Git configuration.
 
-![Q3](dev-diaries/images/q3)
+![Q3](dev-diaries/images/q3.png)
 
 ---
 
@@ -64,7 +64,7 @@ You are only given the website's primary domain as a starting point: `marvenly.c
 - I inspected the **Commit History** (Commit Log) of the repository.
 - Found a specific commit where the codebase was wiped. The commit message explicitly detailed the reason for the removal.
 
-![Q4](dev-diaries/images/q4)
+![Q4](dev-diaries/images/q4.png)
 
 ---
 
@@ -77,4 +77,4 @@ You are only given the website's primary domain as a starting point: `marvenly.c
 - I performed a "Time Travel" investigation by browsing the repository's file tree at a state **prior** to the payment dispute commit.
 - Located the flag within the source code files that had been deleted in the final version.
 
-![Q4](dev-diaries/images/q4)
+![Q5](dev-diaries/images/q5.png)
